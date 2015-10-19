@@ -1,6 +1,5 @@
-class CowsController < ApplicationController
+class UrlsController < ApplicationController
   def index
-    @cows = Cow.all
-    p request
+    @urls = Url.all
   end
 end
